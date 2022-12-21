@@ -107,8 +107,8 @@ def write_wav(sound, filename):
 if __name__ == "__main__":
     meow = load_wav("sounds/meow.wav")
     adam = load_wav("sounds/mystery.wav")
-    write_wav(backwards(adam), "adamreverse.wav")
+    write_wav(backwards(adam), "sounds/adamreverse.wav")
     synth = load_wav("sounds/synth.wav")
     water = load_wav("sounds/water.wav")
-    write_wav(mix(synth, water, 0.2), "synthwater.wav")
+    write_wav(mix(synth, water, 0.2), "sounds/synthwater.wav")
     chick = load_wav("sounds/chickadee.wav")
